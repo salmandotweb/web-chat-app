@@ -1,0 +1,45 @@
+.formContainer {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 5rem;
+	border-radius: 0.5rem;
+	background: var(--background);
+	width: 500px;
+}
+.formHeading {
+	font-size: 2.4rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+.inputContainer > label {
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+.inputContainer > input {
+	padding: 1rem 1.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	font-size: 1.6rem;
+}
+.info {
+	font-size: 1.4rem;
+	font-weight: 500;
+	margin-top: 2rem;
+}
+.info > a {
+	text-decoration: underline;
+	font-size: 1.5rem;
+	margin-left: 0.5rem;
+}
